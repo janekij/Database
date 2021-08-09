@@ -14,7 +14,7 @@ require 'function.php';
 if (isset($_POST['simpan'])) {
     if (tambah($_POST) > 0) {
         echo "<script>
-                alert('เพิ่มข้อมูลสำเร็จแล้ว!');
+                alert('เพิ่มข้อมูลสำเร็จ!');
                 document.location.href = 'index.php';
             </script>";
     } else {
