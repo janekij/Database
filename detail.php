@@ -25,7 +25,7 @@ if (isset($_POST['dataSiswa'])) {
                             <td width="60%">' . $row['nama'] . '</td>
                         </tr>
                         <tr>
-                            <th width="40%">เชื้อชาติ</th>
+                            <th width="40%">สัญชาติ</th>
                             <td width="60%">' . $row['jekel'] . '</td>
                         </tr>
                         <tr>
